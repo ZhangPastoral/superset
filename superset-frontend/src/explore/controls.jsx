@@ -86,6 +86,7 @@ export const D3_FORMAT_OPTIONS = [
   [',.3f', ',.3f (12345.432 => 12,345.432)'],
   ['+,', '+, (12345.432 => +12,345.432)'],
   ['$,.2f', '$,.2f (12345.432 => $12,345.43)'],
+  ['CURRENCY_CHINA', t('中文单位（万，亿）')],
   ['DURATION', t('Duration in ms (66000 => 1m 6s)')],
   ['DURATION_SUB', t('Duration in ms (100.40008 => 100ms 400µs 80ns)')],
 ];

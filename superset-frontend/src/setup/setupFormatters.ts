@@ -25,6 +25,7 @@ import {
   smartDateFormatter,
   smartDateVerboseFormatter,
 } from '@superset-ui/core';
+import createChineseNumberFormatter from 'packages/superset-ui-core/src/number-format/factories/createChineseNumberFormatter';
 
 export default function setupFormatters() {
   getNumberFormatterRegistry()
@@ -66,7 +67,8 @@ export default function setupFormatters() {
     .registerValue(
       'DURATION_SUB',
       createDurationFormatter({ formatSubMilliseconds: true }),
-    );
+    )
+    .registerValue('CURRENCY_CHINA', createChineseNumberFormatter());
 
   getTimeFormatterRegistry()
     .registerValue('smart_date', smartDateFormatter)
