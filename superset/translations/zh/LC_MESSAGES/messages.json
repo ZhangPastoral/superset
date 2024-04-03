@@ -1296,6 +1296,14 @@
       "Donut": ["圆环圈"],
       "Download as image": ["下载为图片"],
       "Download to CSV": ["下载到CSV"],
+      "Export to .CSV": ["下载到CSV"],
+      "Copy permalink to clipboard": ["复制链接"],
+      "Download": ["下载"],
+      "Apply filters": ["应用"],
+      "Total (Sum)": ["总计"],
+      "metric": ["标题栏"],
+      "Subtotal": ["小计"],
+      "No results were returned for this query": ["过滤后没有数据，或者最新记录的数据为空值"],
       "Draft": ["草稿"],
       "Draw a marker on data points. Only applicable for line types.": [
         "在数据点上绘制标记。仅适用于线型。"

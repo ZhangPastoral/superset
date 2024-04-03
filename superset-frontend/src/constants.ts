@@ -149,7 +149,7 @@ export const NULL_DISPLAY = t('N/A');
 export const DEFAULT_COMMON_BOOTSTRAP_DATA: CommonBootstrapData = {
   flash_messages: [],
   conf: {},
-  locale: 'en',
+  locale: 'zh',
   feature_flags: {},
   language_pack: {
     domain: '',
@@ -157,7 +157,7 @@ export const DEFAULT_COMMON_BOOTSTRAP_DATA: CommonBootstrapData = {
       superset: {
         '': {
           domain: 'superset',
-          lang: 'en',
+          lang: 'zh',
           plural_forms: '',
         },
       },

@@ -43,7 +43,7 @@ export default function createQueryStory({
   const story = () => {
     const host = text(
       'Set Superset App host for CORS request',
-      'localhost:8088',
+      'http://192.168.200.42:8088',
     );
     const mode = select('Choose mode:', keys, keys[0]);
     const { formData: presetFormData, chartType } = choices[mode];
