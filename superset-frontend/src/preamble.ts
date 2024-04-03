@@ -40,7 +40,7 @@ const bootstrapData = getBootstrapData();
 // Configure translation
 if (typeof window !== 'undefined') {
   configure({ languagePack: bootstrapData.common.language_pack });
-  moment.locale(bootstrapData.common.locale);
+  moment.locale('zh-cn');
 } else {
   configure();
 }
