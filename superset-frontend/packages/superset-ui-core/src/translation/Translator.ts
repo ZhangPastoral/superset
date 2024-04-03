@@ -33,7 +33,7 @@ const DEFAULT_LANGUAGE_PACK: LanguagePack = {
     superset: {
       '': {
         domain: 'superset',
-        lang: 'en',
+        lang: 'zh',
         plural_forms: 'nplurals=2; plural=(n != 1)',
       },
     },
