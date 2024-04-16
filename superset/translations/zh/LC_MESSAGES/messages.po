@@ -2771,7 +2771,7 @@ msgstr "清除"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/Header/index.tsx:133
 msgid "Clear all"
-msgstr "清楚所有"
+msgstr "清除所有"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:997
 msgid "Click the lock to make changes."
